@@ -1,0 +1,53 @@
+import java.util.*;
+import java.io.*;
+
+public class  vrund_java
+{
+	public static void main(String[] args) throws IOException 
+	{
+		//BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		Scanner scan=new Scanner(System.in);
+        BufferedReader bf=new BufferedReder(new InputStreamReader (System.in));
+        int test=Integer.parseInt(br.readLine());
+        Tokenizer	
+
+
+        /*
+        File file=new File("C:/Users/Vrund/Desktop/URLS.txt");
+        BufferedReader br=new BufferedReader(new FileReader(file)); 
+        PrintWriter pw=new PrintWriter(System.out);
+        
+          String st; 
+          StringBuilder str=new StringBuilder();
+
+            while ((st = br.readLine()) != null) {
+             System.out.println(st); 
+             pw.append(st+"\n");
+             str.append(st+"\n");
+         }
+
+         HashMap<Integer,Integer> map=new HashMap<>();
+         
+         map.put(1,1);
+         map.put(2,2);
+         
+         System.out.println(map+" "+map.containsKey(1));
+
+         Set<Integer>set=map.keySet();
+         for(int temp:set) {
+         	System.out.println(map.get(temp)+" "+temp);
+         }
+    
+       FileWriter fw=new FileWriter("C:/Users/Vrund/Desktop/URLS.txt");
+       
+       fw.write(str.toString()+"1");
+
+       fw.close();
+
+
+
+		pw.flush();
+		*/
+	}
+	
+}
